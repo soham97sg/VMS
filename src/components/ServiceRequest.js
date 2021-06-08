@@ -1,16 +1,17 @@
-export function UserRegister() {
+export function ServiceRequest() {
   return (
     <div className="row" style={{ marginTop: "30px" }}>
       <div className="col-3 col-md-3 d-none d-md-block"></div>
       <div className="col-12 col-md-6">
-        <div className="alert alert-success">User Added</div>
+        <h3 className="alert alert-warning">Service Request</h3>
+        <div className="alert alert-success">Request Registered</div>
         <div className="mb-1">
           <input
             type="text"
             //value={firstName}
             // onChange={(e) => updateFirstName(e)}
             className="form-control"
-            placeholder="Enter Name"
+            placeholder="Enter vehicle registration id"
           />
         </div>
         <div className="mb-1">
@@ -19,7 +20,7 @@ export function UserRegister() {
             //value={lastName}
             // onChange={(e) => updateLastName(e)}
             className="form-control"
-            placeholder="Enter Email"
+            placeholder="Enter price"
           />
         </div>
         <div className="mb-1">
@@ -28,16 +29,16 @@ export function UserRegister() {
             //value={userName}
             //onChange={(e) => updateUserName(e)}
             className="form-control"
-            placeholder="Enter Mobile"
+            placeholder="Enter mechanics id"
           />
         </div>
         <div className="mb-1">
           <input
-            type="password"
+            type="number"
             //value={password}
             //onChange={(e) => updatePassword(e)}
             className="form-control"
-            placeholder="Enter Password"
+            placeholder="Enter service catalog id"
           />
         </div>
         <div className="mb-1">
@@ -46,14 +47,14 @@ export function UserRegister() {
             //value={email}
             //onChange={(e) => updateEmail(e)}
             className="form-control"
-            placeholder="Enter User Type"
+            placeholder="Enter status"
           />
         </div>
         <div className="mb-1">
           <input
             type="button"
             className="btn btn-success w-100"
-            value="Register"
+            value="Submit Request"
             //onClick={(e) => addEmployee(e)}
           />
         </div>

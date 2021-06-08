@@ -1,9 +1,10 @@
-export function UserRegister() {
+export function Mechanics() {
   return (
     <div className="row" style={{ marginTop: "30px" }}>
       <div className="col-3 col-md-3 d-none d-md-block"></div>
       <div className="col-12 col-md-6">
-        <div className="alert alert-success">User Added</div>
+        <h3 className="alert alert-warning">Mechanic Registration</h3>
+        <div className="alert alert-success">Mechanic details Added</div>
         <div className="mb-1">
           <input
             type="text"
@@ -15,11 +16,11 @@ export function UserRegister() {
         </div>
         <div className="mb-1">
           <input
-            type="text"
+            type="number"
             //value={lastName}
             // onChange={(e) => updateLastName(e)}
             className="form-control"
-            placeholder="Enter Email"
+            placeholder="Enter Age"
           />
         </div>
         <div className="mb-1">
@@ -33,27 +34,9 @@ export function UserRegister() {
         </div>
         <div className="mb-1">
           <input
-            type="password"
-            //value={password}
-            //onChange={(e) => updatePassword(e)}
-            className="form-control"
-            placeholder="Enter Password"
-          />
-        </div>
-        <div className="mb-1">
-          <input
-            type="text"
-            //value={email}
-            //onChange={(e) => updateEmail(e)}
-            className="form-control"
-            placeholder="Enter User Type"
-          />
-        </div>
-        <div className="mb-1">
-          <input
             type="button"
             className="btn btn-success w-100"
-            value="Register"
+            value="Add Mechanic"
             //onClick={(e) => addEmployee(e)}
           />
         </div>

@@ -1,16 +1,17 @@
-export function UserRegister() {
+export function Vehicle() {
   return (
     <div className="row" style={{ marginTop: "30px" }}>
       <div className="col-3 col-md-3 d-none d-md-block"></div>
       <div className="col-12 col-md-6">
-        <div className="alert alert-success">User Added</div>
+        <h3 className="alert alert-warning">Register Vehicle</h3>
+        <div className="alert alert-success">Vehicle Details Added</div>
         <div className="mb-1">
           <input
             type="text"
             //value={firstName}
             // onChange={(e) => updateFirstName(e)}
             className="form-control"
-            placeholder="Enter Name"
+            placeholder="Enter User-id"
           />
         </div>
         <div className="mb-1">
@@ -19,7 +20,7 @@ export function UserRegister() {
             //value={lastName}
             // onChange={(e) => updateLastName(e)}
             className="form-control"
-            placeholder="Enter Email"
+            placeholder="Enter vehicle color"
           />
         </div>
         <div className="mb-1">
@@ -28,7 +29,7 @@ export function UserRegister() {
             //value={userName}
             //onChange={(e) => updateUserName(e)}
             className="form-control"
-            placeholder="Enter Mobile"
+            placeholder="Enter vehicle manufacturing year"
           />
         </div>
         <div className="mb-1">
@@ -37,7 +38,7 @@ export function UserRegister() {
             //value={password}
             //onChange={(e) => updatePassword(e)}
             className="form-control"
-            placeholder="Enter Password"
+            placeholder="Enter vehicle description"
           />
         </div>
         <div className="mb-1">
@@ -46,14 +47,14 @@ export function UserRegister() {
             //value={email}
             //onChange={(e) => updateEmail(e)}
             className="form-control"
-            placeholder="Enter User Type"
+            placeholder="Enter vehicle model-id"
           />
         </div>
         <div className="mb-1">
           <input
             type="button"
             className="btn btn-success w-100"
-            value="Register"
+            value="Register vehicle"
             //onClick={(e) => addEmployee(e)}
           />
         </div>
